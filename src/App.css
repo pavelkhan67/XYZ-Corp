@@ -1,0 +1,15 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.active {
+  color: rgb(255, 60, 0); /* Change the color as per your design */
+  font-weight: bold; /* Example style for the active link */
+}
+
+/* Your CSS file */
+.transition {
+  transition: padding 0.5s ease; /* Change 0.3s to your desired transition duration */
+}
+
