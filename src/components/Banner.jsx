@@ -50,7 +50,7 @@ const Banner = () => {
             transition={{ duration: 2 }}
         >
             <div id='main'>
-                <Carousel autoPlay={true} showArrows={false} infiniteLoop={true} interval={5000} transitionTime={2000} className='text-center mb-10 ' >
+                <Carousel autoPlay={true} showArrows={false} infiniteLoop={true} interval={6000} transitionTime={2000} className='text-center mb-10 ' >
                 <div className="relative w-full h-[73vh] lg:h-[100vh]">
                     <img src={img1} className="w-full h-full" />
                     <div className=" absolute h-full flex items-center gap-4 left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]">

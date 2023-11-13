@@ -9,7 +9,7 @@ const OurProduct = () => {
     return (
         <div className='mt-8 mb-10 px-1 md:px-0' id='product' >
             <h2 className='text-4xl'>Our Products</h2>
-            <div className='mt-5 grid grid-cols-2 md:grid-cols-3 gap-2'>
+            <div className='mt-5 grid grid-cols-2 md:grid-cols-3 gap-1 md:gap-2'>
                 <div className="card card-compact w-full bg-base-100 shadow-xl">
                     <figure><img className='w-full h-36 md:h-52' src={img1} alt="Shoes" /></figure>
                     <div className="card-body text-left">

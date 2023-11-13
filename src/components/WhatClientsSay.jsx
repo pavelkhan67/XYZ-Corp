@@ -16,7 +16,7 @@ const WhatClientsSay = () => {
         slidesToScroll: 1,
         arrows: true,
         autoplay: true, 
-        autoplaySpeed: 5000,
+        autoplaySpeed: 6000,
         appendDots: dots => (
             <div style={{ position: 'relative', top: '-10px', right: '0' }}>
                 <ul style={{ margin: '0' }}> {dots} </ul>

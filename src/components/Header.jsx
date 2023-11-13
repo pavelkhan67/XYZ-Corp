@@ -104,7 +104,7 @@ const Header = () => {
     };
 
     return (
-        <div className={`flex justify-between transition bg-base-200 fixed w-full md:w-11/12 mx-auto z-50 ${navbarPadding}`} >
+        <div className={`flex justify-between transition bg-base-200 fixed w-screen md:w-11/12 mx-auto z-50 ${navbarPadding}`} >
             <div className="navbar-start md:flex md:flex-1">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-sm btn-ghost lg:hidden">
@@ -133,7 +133,7 @@ const Header = () => {
                     <li><a className="btn btn-ghost btn-sm normal-case text-base" href='#' onClick={(event) => handleClick(event, 'order')}>Order</a></li>
                     <li><a className="btn btn-ghost btn-sm normal-case text-base" href='#' onClick={(event) => handleClick(event, 'review')}>Reviews</a></li>
                 </ul>
-                <a className="btn btn-outline btn-sm text-orange-500 bg-slate-100 border-0 border-b-4 border-r-4 border-orange-600 me-2 ms-1">Login</a>
+                <a className="btn btn-outline btn-sm text-orange-500 bg-slate-100 border-0 border-b-4 border-r-4 border-orange-600 me-4 md:me-2 ms-1">Login</a>
             </div>
         </div>
     );
