@@ -105,7 +105,7 @@ const Header = () => {
                     </ul>
                 </div>
 
-                <a href='#' className="font-semibold md:text-lg lg:text-xl ps-1">Rainbow Non Woven</a>
+                <a href='#' className="font-semibold text-sm md:text-lg lg:text-xl ps-1">Rainbow Non Woven</a>
             </div>
             <div className="navbar-end flex flex-2 items-center">
                 <ul className="men hidden lg:flex font-semibold" >
