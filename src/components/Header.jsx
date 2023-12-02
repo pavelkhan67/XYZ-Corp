@@ -43,7 +43,7 @@ const Header = () => {
 
             // Check if the section is not the main section
             if (sectionId !== 'main') {
-                section.style.marginTop = '100px';
+                section.style.marginTop = '25px';
             }
 
             const ease = (t) => t < 0.5 ? 4 * t * t * t : (t - 1) * (2 * t - 2) * (2 * t - 2) + 1;
@@ -52,34 +52,19 @@ const Header = () => {
 
             setTimeout(() => {
                 if (sectionId !== 'main') {
-                    section.style.marginTop = '90px';
+                    section.style.marginTop = '17px';
                 }
-            }, 10000);
+            }, 8000);
             setTimeout(() => {
                 if (sectionId !== 'main') {
-                    section.style.marginTop = '80px';
+                    section.style.marginTop = '9px';
                 }
-            }, 18000);
-            setTimeout(() => {
-                if (sectionId !== 'main') {
-                    section.style.marginTop = '60px';
-                }
-            }, 26000);
-            setTimeout(() => {
-                if (sectionId !== 'main') {
-                    section.style.marginTop = '40px';
-                }
-            }, 34000);
-            setTimeout(() => {
-                if (sectionId !== 'main') {
-                    section.style.marginTop = '20px';
-                }
-            }, 42000);
+            }, 14000);
             setTimeout(() => {
                 if (sectionId !== 'main') {
                     section.style.marginTop = '0px';
                 }
-            }, 50000);
+            }, 20000);
         }
     };
 
@@ -105,7 +90,7 @@ const Header = () => {
 
     return (
         <div className={`flex justify-between transition bg-base-200 fixed w-screen md:w-11/12 mx-auto z-50 ${navbarPadding}`} >
-            <div className="navbar-start md:flex md:flex-1">
+            <div className="navbar-start flex items-center">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-sm btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -120,8 +105,7 @@ const Header = () => {
                     </ul>
                 </div>
 
-                {/* <a href='#' onClick={() => scrollToSection('main')} className="btn btn-ghost btn-sm normal-case text-xl">XYZ Corp.</a> */}
-                <a href='#' className=" btn-sm normal-case font-semibold text-xl">XYZ Corp.</a>
+                <a href='#' className="font-semibold md:text-lg lg:text-xl ps-1">Rainbow Non Woven</a>
             </div>
             <div className="navbar-end flex flex-2 items-center">
                 <ul className="men hidden lg:flex font-semibold" >
@@ -133,7 +117,7 @@ const Header = () => {
                     <li><a className="btn btn-ghost btn-sm normal-case text-base" href='#' onClick={(event) => handleClick(event, 'order')}>Order</a></li>
                     <li><a className="btn btn-ghost btn-sm normal-case text-base" href='#' onClick={(event) => handleClick(event, 'review')}>Reviews</a></li>
                 </ul>
-                <a className="btn btn-outline btn-sm text-orange-500 bg-slate-100 border-0 border-b-4 border-r-4 border-orange-600 me-4 md:me-2 ms-1">Login</a>
+                <a className="btn btn-outline btn-sm text-orange-500 bg-slate-100 border-0 border-b-4 border-r-4 border-orange-600 me-5 md:me-2 ms-1">Login</a>
             </div>
         </div>
     );

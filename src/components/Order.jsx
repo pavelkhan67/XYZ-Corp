@@ -16,11 +16,11 @@ const Order = () => {
     };
 
     return (
-        <div className='px-1 md:px-0' id='order'>
-            <div className='text-4xl mb-4'>
+        <div className='pt-10 lg:pt-12 px-1 md:px-0' id='order'>
+            <div className='text-3xl md:text-4xl mb-4 font-semibold'style={{ color: 'rgba(31, 52, 122, 1)' }}>
                 Place Your Order
             </div>
-            <form onSubmit={handleSubmit(onSubmit)} className="mb-10 mx-auto p-4 border border-gray-300 rounded-md">
+            <form onSubmit={handleSubmit(onSubmit)} className="mx-auto p-4 border border-gray-300 rounded-md">
                 <div className="grid gap-4 grid-cols-1 md:grid-cols-2">
                     <div className="mb-1">
                         <label className="block">

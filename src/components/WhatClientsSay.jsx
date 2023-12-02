@@ -1,39 +1,38 @@
 import React, { useRef } from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import img from '../assets/img/img3.jpg';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
+import img from '../assets/img/user.jpg';
+import img2 from '../assets/img/user1.jpg';
 import img1 from '../assets/img/photo_collage.jpg';
+import { TypeAnimation } from 'react-type-animation';
+import { Fade } from 'react-reveal';
 
 const WhatClientsSay = () => {
-    const sliderRef = useRef(null);
-
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 2000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: true,
-        autoplay: true, 
-        autoplaySpeed: 6000,
-        appendDots: dots => (
-            <div style={{ position: 'relative', top: '-10px', right: '0' }}>
-                <ul style={{ margin: '0' }}> {dots} </ul>
-            </div>
-        )
-    };
 
     return (
-        <div id='review'>
-            <Slider ref={sliderRef} {...settings}>
+        <div className='pt-10 lg:pt-12' id='review'>
+            <Carousel className='text-center' autoPlay={true} interval={6000} infiniteLoop={true} showThumbs={false} transitionTime={1500} showStatus={false}>
                 <div className='relative'>
-                    <img className='h-[400px] w-full' src={img1} alt="" />
-                    <div className='border border-slate-300 rounded bg-white p-4 m-8 md:m-20 absolute bottom-7'>
+                    <img className='h-[450px] md:h-[400px] w-full ' src={img1} alt="" />
+                    <TypeAnimation
+                        className='text-3xl md:text-4xl font-semibold absolute top-5 md:top-10 lg:top-12 left-1' style={{ color: 'rgba(31, 52, 122, 1)' }}
+                        // Same String at the start will only be typed once, initially
+                        sequence={[
+                            "What Clients Say",
+                            2000,
+                            "Clients Review",
+                            2000
+                        ]}
+                        speed={10} // Custom Speed from 1-99 - Default Speed: 40
+                        wrapper="span" // Animation will be rendered as a <span>
+                        repeat={Infinity} // Repeat this Animation Sequence infinitely
+                        reset={true}
+                    />
+                    <div className='border border-slate-300 rounded bg-white p-4 m-8 md:m-14 lg:m-20 absolute bottom-5 md:bottom-7 lg:bottom-5'>
                         <div className='flex items-center'>
-                            <img className='rounded-full h-16 w-16' src={img} alt="" />
+                            <div className='h-14 w-14'><img className='h-full w-full rounded-full' src={img} alt="" /></div>
                             <div className='ps-2 text-left'>
-                                <p className='text-primary text-2xl'>Karim Khan</p>
+                            <Fade right><p className='text-blue-500 text-2xl'>Karim Khan</p></Fade>
                                 <p>User, Normal User</p>
                             </div>
                         </div>
@@ -43,12 +42,55 @@ const WhatClientsSay = () => {
                     </div>
                 </div>
                 <div className='relative'>
-                    <img className='h-[400px] w-full' src={img1} alt="" />
-                    <div className='border border-slate-300 rounded bg-white p-4 m-8 md:m-20 absolute bottom-7'>
+                    <img className='h-[450px] md:h-[400px] w-full' src={img1} alt="" />
+                    <TypeAnimation
+                        className='text-3xl md:text-4xl font-semibold absolute top-5 md:top-10 lg:top-12 left-1' style={{ color: 'rgba(31, 52, 122, 1)' }}
+                        // Same String at the start will only be typed once, initially
+                        sequence={[
+                            "What Clients Say",
+                            2000,
+                            "Clients Review",
+                            2000
+                        ]}
+                        speed={10} // Custom Speed from 1-99 - Default Speed: 40
+                        wrapper="span" // Animation will be rendered as a <span>
+                        repeat={Infinity} // Repeat this Animation Sequence infinitely
+                        reset={true}
+                    />
+                    <div className='border border-slate-300 rounded bg-white p-4 m-8 md:m-14 lg:m-20 absolute bottom-5 md:bottom-7 lg:bottom-5'>
                         <div className='flex items-center'>
-                            <img className='rounded-full h-16 w-16' src={img} alt="" />
+                            <div className='h-14 w-14'><img className='h-full w-full rounded-full' src={img2} alt="" /></div>
                             <div className='ps-2 text-left'>
-                                <p className='text-primary text-2xl'>Pavel Khan</p>
+                            <Fade left><p className='text-blue-500 text-2xl'>Pavel Khan</p></Fade>
+                                <p>User, Normal User</p>
+                            </div>
+                        </div>
+                        <div className='text-left pt-2'>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consequuntur, quidem blanditiis, aperiam, nesciunt debitis id ducimus quaerat asperiores laboriosam facilis magni. Magnam eligendi similique itaque consequuntur nostrum laborum doloribus?</p>
+                        </div>
+                    </div>
+                </div>
+                <div className='relative'>
+                    <img className='h-[450px] md:h-[400px] w-full' src={img1} alt="" />
+                    <TypeAnimation
+                        className='text-3xl md:text-4xl font-semibold absolute top-5 md:top-10 lg:top-12 left-1' style={{ color: 'rgba(31, 52, 122, 1)' }}
+                        // Same String at the start will only be typed once, initially
+                        sequence={[
+                            "What Clients Say",
+                            2000,
+                            "Clients Review",
+                            2000
+                        ]}
+                        speed={10} // Custom Speed from 1-99 - Default Speed: 40
+                        wrapper="span" // Animation will be rendered as a <span>
+                        repeat={Infinity} // Repeat this Animation Sequence infinitely
+                        reset={true}
+                    />
+                    <div className='border border-slate-300 rounded bg-white p-4 m-8 md:m-14 lg:m-20 absolute bottom-5 md:bottom-7 lg:bottom-5'>
+                        <div className='flex items-center'>
+                            <div className='h-14 w-14'><img className='h-full w-full rounded-full' src={img} alt="" /></div>
+                            <div className='ps-2 text-left'>
+                                <Fade top><p className='text-blue-500 text-2xl'>Rahul Khan</p></Fade>
                                 <p>User, Normal User</p>
                             </div>
                         </div>
@@ -58,7 +100,7 @@ const WhatClientsSay = () => {
                     </div>
                 </div>
 
-            </Slider>
+            </Carousel>
         </div>
     );
 };
