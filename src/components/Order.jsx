@@ -17,7 +17,7 @@ const Order = () => {
 
     return (
         <div className='pt-10 lg:pt-12 px-1 md:px-0' id='order'>
-            <div className='text-3xl md:text-4xl mb-4 font-semibold'style={{ color: 'rgba(31, 52, 122, 1)' }}>
+            <div className='text-3xl md:text-4xl mb-5 md:mb-8 font-semibold'style={{ color: 'rgba(31, 52, 122, 1)' }}>
                 Place Your Order
             </div>
             <form onSubmit={handleSubmit(onSubmit)} className="mx-auto p-4 border border-gray-300 rounded-md">
@@ -26,13 +26,11 @@ const Order = () => {
                         <label className="block">
                             Select your product:
                             <select {...register('product', { required: true })} className="w-full border border-gray-300 rounded-md p-2 mt-1">
-                                <option value="product1">Item-1</option>
-                                <option value="product2">Item-2</option>
-                                <option value="product3">Item-3</option>
-                                <option value="product4">Item-4</option>
-                                <option value="product5">Item-5</option>
-                                <option value="product6">Item-6</option>
-                                
+                                <option value="product1">Handle Bag</option>
+                                <option value="product2">D-Cut Bag</option>
+                                <option value="product3">Auto Box Bag</option>
+                                <option value="product4">Printing Bag</option>
+                                <option value="product5">W-Cut Bag</option>                                
                             </select>
                         </label>
                         {errors.product && <p className="text-red-500">Product is required</p>}

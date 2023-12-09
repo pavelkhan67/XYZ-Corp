@@ -32,12 +32,12 @@ const WhatClientsSay = () => {
                         <div className='flex items-center'>
                             <div className='h-14 w-14'><img className='h-full w-full rounded-full' src={img} alt="" /></div>
                             <div className='ps-2 text-left'>
-                            <Fade right><p className='text-blue-500 text-2xl'>Karim Khan</p></Fade>
+                            <Fade right><p className='text-blue-500 text-2xl'>Karim Mia</p></Fade>
                                 <p>User, Normal User</p>
                             </div>
                         </div>
                         <div className='text-left pt-2'>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consequuntur, quidem blanditiis, aperiam, nesciunt debitis id ducimus quaerat asperiores laboriosam facilis magni. Magnam eligendi similique itaque consequuntur nostrum laborum doloribus?</p>
+                            <p>"I want to express my satisfaction with the non-woven shopping bags I purchased from your company. The quality is outstanding, and they have proven to be durable and reliable. The stylish design and vibrant colors make them a standout choice. Thank you for providing such a fantastic product!"</p>
                         </div>
                     </div>
                 </div>
@@ -66,7 +66,8 @@ const WhatClientsSay = () => {
                             </div>
                         </div>
                         <div className='text-left pt-2'>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consequuntur, quidem blanditiis, aperiam, nesciunt debitis id ducimus quaerat asperiores laboriosam facilis magni. Magnam eligendi similique itaque consequuntur nostrum laborum doloribus?</p>
+                            <p>"Beyond the exceptional quality of your non-woven shopping bags, I'd like to commend your customer service. The support I received during the purchasing process was outstanding. It's refreshing to experience such excellent customer care. Keep up the great work!"
+</p>
                         </div>
                     </div>
                 </div>
@@ -90,12 +91,12 @@ const WhatClientsSay = () => {
                         <div className='flex items-center'>
                             <div className='h-14 w-14'><img className='h-full w-full rounded-full' src={img} alt="" /></div>
                             <div className='ps-2 text-left'>
-                                <Fade top><p className='text-blue-500 text-2xl'>Rahul Khan</p></Fade>
+                                <Fade top><p className='text-blue-500 text-2xl'>Maynul Islam</p></Fade>
                                 <p>User, Normal User</p>
                             </div>
                         </div>
                         <div className='text-left pt-2'>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam consequuntur, quidem blanditiis, aperiam, nesciunt debitis id ducimus quaerat asperiores laboriosam facilis magni. Magnam eligendi similique itaque consequuntur nostrum laborum doloribus?</p>
+                            <p>"I am delighted with the non-woven shopping bags I ordered from your company. They have exceeded my expectations in terms of both durability and aesthetics. Your product truly stands out, and I'm happy to endorse it to others. Thank you for providing a top-notch shopping bag option!"</p>
                         </div>
                     </div>
                 </div>

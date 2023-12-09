@@ -28,36 +28,38 @@ const WhoWeAre = () => {
                 />
                 <div className='ps-1 lg:ps-0'>
                     <Fade left><p className='py-2 text-blue-400'>Rainbow Non Woven - BD Limited is a Manufacturer of all kind of Non Woven Product (Tissue bag)</p></Fade>
-                    <p>Welcome to Rainbow Non Woven – where style meets sustainability in every thread. As pioneers in non-woven products, our vibrant tissue bags and eco-friendly solutions redefine conscious living.</p>
+                    <p>Rainbow Non Woven (Bd) Ltd is a fast growing Non Woven Bag Company in Bangladesh. It is a private limited company incorporate with the register of Joint Stock Companies located at Jamun, Dakshinkhan, Uttara, Dhaka, Bangladesh. </p>
 
-                    <p className='pt-1'>Our commitment to quality and a colorful lifestyle is encapsulated in our tagline, "Wrap Your World in Colorful Comfort." Join us in creating a brighter, greener future with every purchase from Rainbow Non Woven.</p>
+                    <p className='py-1'>We are renowned Manufacturer, Exporter & Supplier of an exclusive collection of Non Woven Bags that includes Carry Bags, Rice Packing Bags, School Bags, Shoe Bags and Shopping Bags all of them are Non Woven. Our products are appreciated for durability, high tear resistance, superb weight holding and eco-friendly attributes.</p>
+
+                    <p><span className='font-semibold'>Vision:</span> Our vision is to be one of the most admired company in and outside Bangladesh in the Non Bag Sector.</p>
                 </div>
             </div>
 
             <div className='grid grid-cols-2 md:grid-cols-3 gap-1 md:gap-2 lg:gap-3 mt-5 md:mt-0'>
                 <div className='group flex flex-col justify-center items-center text-center  border border-slate-300 py-2 lg:py-5 px-1 rounded hover:shadow-md hover:border-blue-400 hover:shadow-slate-400 transition-all duration-500'>
                     <img className='w-12' src={img1} alt="" />
-                    <p className='text-3xl pt-2 group-hover:text-blue-500'>2000</p>
+                    <p className='text-3xl pt-2 group-hover:text-blue-500'>2016</p>
                     <p>Years of Establishment</p>
                 </div>
                 <div className='group flex flex-col justify-center items-center text-center  border border-slate-300 py-2 lg:py-5 px-1 rounded hover:shadow-md hover:border-blue-400 hover:shadow-slate-400 transition-all duration-500'>
                     <img className='w-12' src={img2} alt="" />
-                    <p className='text-3xl pt-2 group-hover:text-blue-500'>200+</p>
+                    <p className='text-3xl pt-2 group-hover:text-blue-500'>20+</p>
                     <p>Total Employees</p>
                 </div>
                 <div className='group flex flex-col justify-center items-center text-center border border-slate-300 py-2 lg:py-5 px-1 rounded hover:shadow-md hover:border-blue-400 hover:shadow-slate-400 transition-all duration-500'>
                     <img className='w-12' src={img3} alt="" />
-                    <p className='text-3xl pt-2 group-hover:text-blue-500'>10+</p>
+                    <p className='text-3xl pt-2 group-hover:text-blue-500'>5+</p>
                     <p>Copyrighted Products</p>
                 </div>
                 <div className='group flex flex-col justify-center items-center text-center border border-slate-300 py-2 lg:py-5 px-1 rounded hover:shadow-md hover:border-blue-400 hover:shadow-slate-400 transition-all duration-500'>
                     <img className='w-12' src={img4} alt="" />
-                    <p className='text-3xl pt-2 group-hover:text-blue-500'>5000+</p>
+                    <p className='text-3xl pt-2 group-hover:text-blue-500'>50+</p>
                     <p>Services Delivered</p>
                 </div>
                 <div className='group flex flex-col justify-center items-center text-center border border-slate-300 py-2 lg:py-5 px-1 rounded hover:shadow-md hover:border-blue-400 hover:shadow-slate-400 transition-all duration-500'>
                     <img className='w-12' src={img5} alt="" />
-                    <p className='text-3xl pt-2 group-hover:text-blue-500'>1ml+</p>
+                    <p className='text-3xl pt-2 group-hover:text-blue-500'>1k+</p>
                     <p>Happy Users</p>
                 </div>
                 <div className='group flex flex-col justify-center items-center text-center border border-slate-300 py-2 lg:py-5 px-1 rounded hover:shadow-md hover:border-blue-400 hover:shadow-slate-400 transition-all duration-500'>
