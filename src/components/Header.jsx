@@ -117,7 +117,7 @@ const Header = () => {
                     <li><a className="btn btn-ghost btn-sm normal-case text-base" href='#' onClick={(event) => handleClick(event, 'order')}>Order</a></li>
                     <li><a className="btn btn-ghost btn-sm normal-case text-base" href='#' onClick={(event) => handleClick(event, 'review')}>Reviews</a></li>
                 </ul>
-                <a className="btn btn-outline btn-sm text-orange-500 bg-slate-100 border-0 border-b-4 border-r-4 border-orange-600 me-3 md:me-2 ms-1">Login</a>
+                {/* <a className="btn btn-outline btn-sm text-orange-500 bg-slate-100 border-0 border-b-4 border-r-4 border-orange-600 me-3 md:me-2 ms-1">Login</a> */}
             </div>
         </div>
     );
