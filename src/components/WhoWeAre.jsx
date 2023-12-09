@@ -10,7 +10,7 @@ import Fade from 'react-reveal/Fade';
 
 const WhoWeAre = () => {
     return (
-        <div className='md:grid grid-cols-2 px-1 lg:px-0 pt-10 lg:pt-12' id='about'>
+        <div className='lg:grid grid-cols-2 px-1 lg:px-0 pt-10 lg:pt-12' id='about'>
             <div className='pe-2 flex flex-col justify-center text-justify pr-2 md:pr-5'>
                 <TypeAnimation
                     className='text-3xl md:text-4xl font-semibold mb-3' style={{ color: 'rgba(31, 52, 122, 1)' }}
@@ -36,7 +36,7 @@ const WhoWeAre = () => {
                 </div>
             </div>
 
-            <div className='grid grid-cols-2 md:grid-cols-3 gap-1 md:gap-2 lg:gap-3 mt-5 md:mt-0'>
+            <div className='grid grid-cols-2 md:grid-cols-3 gap-1 md:gap-2 lg:gap-3 mt-5 lg:mt-0'>
                 <div className='group flex flex-col justify-center items-center text-center  border border-slate-300 py-2 lg:py-5 px-1 rounded hover:shadow-md hover:border-blue-400 hover:shadow-slate-400 transition-all duration-500'>
                     <img className='w-12' src={img1} alt="" />
                     <p className='text-3xl pt-2 group-hover:text-blue-500'>2016</p>

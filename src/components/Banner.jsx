@@ -54,7 +54,7 @@ const Banner = () => {
                 <div className="relative w-full h-[72vh] md:h-[50vh] lg:h-[90vh]">
                     <img src={img1} className="w-full h-full" />
                     <div className=" absolute h-full flex items-center gap-4 left-0 top-0 bg-gradient-to-r from-[#111111ec] to-[#4140408c]">
-                        <div className='text-white space-y-7 w-11/12 md:w-10/12 lg:w-2/3 pl-4 md:pl-12' data-aos="fade-down-right" data-aos-duration="1000">
+                        <div className='text-white space-y-7 w-11/12 md:w-10/12 lg:w-3/4 pl-4 md:pl-12' data-aos="fade-down-right" data-aos-duration="1000">
                             <h2 className='pt-5 text-3xl md:text-4xl font-bold text-start'>Unfold Elegance, Embrace Sustainability – Rainbow Non Woven, Your Stylish Choice.</h2>
                             <p className='text-justify'>Welcome to Rainbow Non Woven, your one-stop destination for a vibrant array of non-woven products, specializing in tissue bags. At Rainbow Non Woven, we believe in blending style with sustainability, offering a range of eco-friendly solutions that not only look good but also contribute to a greener planet.</p>
                             <div className='flex justify-start'>
@@ -68,7 +68,7 @@ const Banner = () => {
                 <div className="relative w-full h-[72vh] md:h-[50vh] lg:h-[90vh]">
                     <img src={img2} className="w-full h-full" />
                     <div className=" absolute h-full flex items-center gap-4 left-0 top-0 bg-gradient-to-r from-[#111111ec] to-[#4140408c]">
-                        <div className='text-white space-y-7 w-11/12 md:w-10/12 lg:w-2/3 pl-4 md:pl-12' data-aos="fade-down-right" data-aos-duration="1000">
+                        <div className='text-white space-y-7 w-11/12 md:w-10/12 lg:w-3/4 pl-4 md:pl-12' data-aos="fade-down-right" data-aos-duration="1000">
                             <h2 className='pt-5 text-3xl md:text-4xl font-bold text-start'>Where Quality Meets Eco-Friendliness: Explore Rainbow Non Woven Products.</h2>
                             <p className='text-justify'>Our commitment to quality craftsmanship ensures that each product, from our eye-catching tissue bags to other non-woven items, is designed to exceed your expectations. We take pride in weaving dreams into every thread, bringing you products that reflect elegance, comfort, and a touch of the extraordinary.</p>
                             <div className='flex justify-start'>
@@ -82,7 +82,7 @@ const Banner = () => {
                 <div className="relative w-full h-[72vh] md:h-[50vh] lg:h-[90vh]">
                     <img src={img3} className="w-full h-full" />
                     <div className=" absolute h-full flex items-center gap-4 left-0 top-0 bg-gradient-to-r from-[#111111ec] to-[#4140408c]">
-                        <div className='text-white space-y-7 w-11/12 md:w-10/12 lg:w-2/3 pl-4 md:pl-12' data-aos="fade-down-right" data-aos-duration="1000">
+                        <div className='text-white space-y-7 w-11/12 md:w-10/12 lg:w-3/4 pl-4 md:pl-12' data-aos="fade-down-right" data-aos-duration="1000">
                             <h2 className='pt-5 text-3xl md:text-4xl font-bold text-start'>We Weave Dreams into Every Thread – Rainbow Non Woven, Unveiling a Colorful Tomorrow.</h2>
                             <p className='text-justify'>Embrace a world of possibilities with Rainbow Non Woven. Our tagline, "Wrap Your World in Colorful Comfort," encapsulates our mission to provide you with products that add a splash of color to your daily life. Join us in our journey towards a brighter, more sustainable future, where your choices make a positive impact on the planet.</p>
                             <div className='flex justify-start'>
@@ -96,7 +96,7 @@ const Banner = () => {
                 <div className="relative w-full h-[72vh] md:h-[50vh] lg:h-[90vh]">
                     <img src={img4} className="w-full h-full" />
                     <div className=" absolute h-full flex items-center gap-4 left-0 top-0 bg-gradient-to-r from-[#111111ec] to-[#4140408c]">
-                        <div className='text-white space-y-7 w-11/12 md:w-10/12 lg:w-2/3 pl-4 md:pl-12' data-aos="fade-down-right" data-aos-duration="1000">
+                        <div className='text-white space-y-7 w-11/12 md:w-10/12 lg:w-3/4 pl-4 md:pl-12' data-aos="fade-down-right" data-aos-duration="1000">
                             <h2 className='pt-5 text-3xl md:text-4xl font-bold text-start'>Carry the Rainbow Everywhere You Go – Eco-Friendly Non Woven Products for a Brighter Future.</h2>
                             <p className='text-justify'>Explore Rainbow Non Woven today and discover the perfect blend of style, comfort, and eco-consciousness. Carry the rainbow with you, and let your choices speak volumes about your commitment to a colorful and environmentally friendly lifestyle.</p>
                             <div className='flex justify-start'>
