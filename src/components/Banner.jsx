@@ -51,7 +51,7 @@ const Banner = () => {
         >
             <div id='main'>
                 <Carousel autoPlay={true} showArrows={false} infiniteLoop={true} interval={6000} showThumbs={false} transitionTime={1500} className='text-center ' >
-                <div className="relative w-full h-[75vh] md:h-[50vh] lg:h-[100vh]">
+                <div className="relative w-full h-[72vh] md:h-[50vh] lg:h-[90vh]">
                     <img src={img1} className="w-full h-full" />
                     <div className=" absolute h-full flex items-center gap-4 left-0 top-0 bg-gradient-to-r from-[#111111ec] to-[#4140408c]">
                         <div className='text-white space-y-7 w-11/12 md:w-10/12 lg:w-2/3 pl-4 md:pl-12' data-aos="fade-down-right" data-aos-duration="1000">
@@ -65,7 +65,7 @@ const Banner = () => {
                         </div>
                     </div>
                 </div>
-                <div className="relative w-full h-[75vh] md:h-[50vh] lg:h-[100vh]">
+                <div className="relative w-full h-[72vh] md:h-[50vh] lg:h-[90vh]">
                     <img src={img2} className="w-full h-full" />
                     <div className=" absolute h-full flex items-center gap-4 left-0 top-0 bg-gradient-to-r from-[#111111ec] to-[#4140408c]">
                         <div className='text-white space-y-7 w-11/12 md:w-10/12 lg:w-2/3 pl-4 md:pl-12' data-aos="fade-down-right" data-aos-duration="1000">
@@ -79,7 +79,7 @@ const Banner = () => {
                         </div>
                     </div>
                 </div>
-                <div className="relative w-full h-[75vh] md:h-[50vh] lg:h-[100vh]">
+                <div className="relative w-full h-[72vh] md:h-[50vh] lg:h-[90vh]">
                     <img src={img3} className="w-full h-full" />
                     <div className=" absolute h-full flex items-center gap-4 left-0 top-0 bg-gradient-to-r from-[#111111ec] to-[#4140408c]">
                         <div className='text-white space-y-7 w-11/12 md:w-10/12 lg:w-2/3 pl-4 md:pl-12' data-aos="fade-down-right" data-aos-duration="1000">
@@ -93,7 +93,7 @@ const Banner = () => {
                         </div>
                     </div>
                 </div>
-                <div className="relative w-full h-[75vh] md:h-[50vh] lg:h-[100vh]">
+                <div className="relative w-full h-[72vh] md:h-[50vh] lg:h-[90vh]">
                     <img src={img4} className="w-full h-full" />
                     <div className=" absolute h-full flex items-center gap-4 left-0 top-0 bg-gradient-to-r from-[#111111ec] to-[#4140408c]">
                         <div className='text-white space-y-7 w-11/12 md:w-10/12 lg:w-2/3 pl-4 md:pl-12' data-aos="fade-down-right" data-aos-duration="1000">
